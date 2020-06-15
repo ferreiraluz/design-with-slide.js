@@ -1,0 +1,55 @@
+.content header{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.content header a{
+    display: inline;
+    text-decoration: none;
+    color:  var(--principal-color);
+    font-size: 20px;
+    padding: 20px;
+    margin: 5px;  
+    border-radius: 16px;
+    transition: .2s;
+   
+}
+
+.content header a:hover{
+    background-color: var(--principal-color);
+    color: white;
+    
+}
+
+
+.content header #logo{
+    color: var(--principal-color);
+    cursor: pointer;
+}
+
+.content header li{
+   list-style: none;
+   display: inline;
+   font-size: 20px;
+   font-weight: bold;
+   top: 3px;
+}
+
+.content header i{
+    color: var(--principal-color);
+    display: inline;
+    position: relative;
+    font-size: 30px;
+    top: 3px;
+    transition: .4s;
+
+}
+
+.content header i:hover{
+    background-color: var(--principal-color);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+

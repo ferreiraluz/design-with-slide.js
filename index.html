@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Marca</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/slide.css">
+    <link rel="stylesheet" href="./styles/signup.css">
+    <link rel="stylesheet" href="./styles/login.css">
+    <link rel="stylesheet" href="./styles/display-aboutUs.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+
+</head>
+
+
+<body>
+    
+    <div class="content">
+        <header>
+            <div id="logo">
+                <h2>Logo</h2>
+            </div><!--logo-->
+
+            <div class="menu">
+                <ul>
+                    <a href="./index.html">
+                        
+                        <span>
+                            
+                            <i class="fa fa-home" aria-hidden="true"></i> 
+                            
+                        </span>
+                        <li>Home</li>
+                    </a>
+
+                    <a href="./courses.html">
+                        <span>
+
+                            <i class="fa fa-address-card-o" aria-hidden="true"></i>                       
+                            
+                        </span>
+                        <li>Cursos em Destaque</li>
+                    </a>
+
+                    <a href="#">
+                        <span>
+                            <span>
+                               
+                                <i class="fa fa-handshake-o" aria-hidden="true" id="about-us"></i>
+                                 
+                            </span>
+                            <li>Sobre Nós</li>
+                        </span>
+                    </a>
+                </ul>
+            </div><!--menu-->
+
+            
+        </header>
+
+        <div class="slide">
+             <img src="./img/1.jpg" class="selected" alt="">
+             <img src="./img/2.jpg" alt="">
+             <img src="./img/3.jpg" alt="">
+
+             
+        </div><!--slide-->
+
+        <div class="login">
+            <button>Cadastre-se</button>
+            <a href="#">Ou faça login</a>
+        </div><!--login-->
+    </div><!--content-->
+
+    
+    
+    
+    
+    
+    
+    <div id="sign-up" class="hide">
+        
+        <form action="">
+            <fieldset>
+
+                <div class="field">
+
+                    <a href="#" id="close">x</a>
+                    
+                    <span>Nome Completo:</span>
+                    <input type="text" name="completName" id="completName" placeholder="Nome Completo">
+                    
+                    <span>Digite seu e-mail:</span>
+                    
+                    <input type="text" name="email" id="email" placeholder="Digite seu E-mail">
+                    
+                    <span>Crie uma senha:</span>
+                    <input type="password" name="password" id="password" placeholder="Crie uma senha">
+                    
+                    
+                    <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirme sua senha">
+
+                    <button>Confirmar</button>
+                </div><!--field-->
+        
+            </fieldset>
+        </form>
+    </div><!--sign-up-->
+
+    <div id="display-login" class="hide">
+        
+        <form action="">
+            <fieldset>
+
+                <div class="field">
+
+                    <a href="#" id="close-load">x</a>
+                    
+                    <span>Digite seu e-mail:</span>
+                    
+                    <input type="text" name="email-login" id="email-login" placeholder="Digite seu E-mail">
+                    
+                    <span>Digite sua senha</span>
+                    <input type="password" name="password-login" id="password-login" placeholder="Digite sua senha">
+
+                    <button>Entrar</button>
+                </div><!--field-->
+        
+            </fieldset>
+        </form>
+    </div><!--login-->
+
+    <div id="display-aboutUs" class="hide">
+        <div class="textAboutUs">
+            <h1>Quem Somos?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, animi. Corrupti aperiam totam quae aliquid obcaecati soluta dicta ipsam assumenda. Expedita accusamus ratione quam neque nesciunt soluta blanditiis ea consequatur.</p>
+            <p>Saepe quas doloremque rerum odit iste non suscipit quod expedita nam similique in dignissimos sapiente consectetur eaque esse aut quis, nesciunt doloribus aperiam. Commodi quisquam, ipsum beatae at fugit odio!</p>
+
+            <button>Voltar para home</button>
+        </div><!--textAboutUs-->
+    </div><!--display-aboutUs-->
+
+    <footer>
+        <div class="social-networks">
+            
+            <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+
+
+        </div><!--social-networks-->
+    </footer>
+
+
+    
+    
+    <!--scripts-->
+
+        <script src="./js/slide.js"></script>        
+        <script src="./js/signUp.js"></script>
+        <script src="./js/login.js"></script>
+        <script src="./js/aboutUs.js"></script>
+    
+       
+    <!--scripts-->
+   
+</body>
+</html>

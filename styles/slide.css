@@ -1,0 +1,63 @@
+.slide{
+    margin: auto;
+    margin-top: 60px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    max-height: 600px;
+    width: 1000px;
+    height: 600px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.slide img{
+    position: absolute;
+    opacity: 0;
+    width: 90%;
+    height: 90%;
+    transition: opacity 800ms;
+    border-radius: 50px;
+    border: 20px solid var(--principal-color);
+    cursor: pointer;
+}
+
+.slide img.selected{
+    opacity: 1;
+}
+
+.login{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: -25px;
+}
+
+.login button{
+    padding: 40px;
+    color: white;
+    background-color: var(--principal-color);
+    margin-top: -30px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login button:hover{
+    background-color: rgb(113, 13, 185);
+}
+
+.login a{
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login a:hover{
+    text-decoration: underline;
+}
+

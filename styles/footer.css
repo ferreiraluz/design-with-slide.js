@@ -1,0 +1,21 @@
+footer{
+    margin-top: 7%;
+    text-align: center;
+}
+
+footer .social-network{
+    font-size: 20px;
+}
+
+footer .social-networks i{
+    margin-right: 20px;
+    font-size: 200px;
+    padding: 0;
+    cursor: pointer;
+    color: var(--hide-color);
+    transition: color .2s;
+}
+
+footer .social-networks i:hover{
+    color: var(--principal-color);
+}
